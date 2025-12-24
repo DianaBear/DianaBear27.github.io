@@ -81,33 +81,48 @@
             color: #333;
         }
 
+        <style>
         /* Projects Section */
         .projects {
             padding: 40px;
-            background-color: #f7f7f7;
+            background-color: #F2F3F2; /* matches page background */
+            text-align: center;
         }
 
         .project-container {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
         }
 
         .project-card {
-            padding: 20px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 22px;
+            background-color: #D6B3E1; /* Lilac */
+            border-radius: 12px;
+            border-top: 6px solid #F66733; /* Orange accent */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
-        /* Styling for images (code snippets) */
-        img {
-            max-width: 100%;
-            height: auto;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            margin: 20px 0;
+        .project-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 10px 18px rgba(0, 0, 0, 0.18);
         }
+
+        .project-card h3 {
+            color: #F66733; /* Orange titles */
+            margin-bottom: 10px;
+        }
+
+        .project-card p {
+            color: #333;
+            font-size: 1rem;
+            line-height: 1.4;
+        }
+        </style>
+
     </style>
 </head>
 <body>
@@ -115,43 +130,9 @@
     <!-- Hero Section -->
     <header class="hero">
         <h1>My Projects 👩🏻‍💻</h1>
-        <p>Explore some of the projects I've worked on during my studies.</p>
+        <p>Explore some of the projects.</p>
     </header>
 
-    <!-- Projects Section -->
-    <section class="projects" id="projects">
-        <h2>Checkers Game Project</h2>
-        <p>This project is a checkers game built using Java.</p>
-
-        <h2>Data Science Project (Python)</h2>
-        <p>This project uses IPEDS data to analyze the number of men and women in computer science nationally and at Clemson University.</p>
-
-        <h2>US vs. France Government Comparison (R)</h2>
-        <p>This project compares the US and French governments using R.</p>
-
-        <!-- Add more project sections as needed -->
-
-        <h2>Personal Website (Jekyll + GitHub Pages)</h2>
-        <p>This is my personal website built using Jekyll and hosted on GitHub Pages. This website is the final version of my project!</p>
-
-        <h2>Microservices Project: Spotify API (API Development)</h2>
-        <p>This project involves integrating with the Spotify API to retrieve and display information. This API creates a personalized playlist, adds prespecified songs to playlist, and retrieves user data.</p>
-
-
-        <h2>TigerChow Postman API</h2>
-        <p>This project involves creating and testing the API specifications for the TigerChow application using Postman. The goal is to define, test, and document the API endpoints to ensure seamless integration between the backend and frontend of the application.</p>
-
-
-        <h2>Typing Game (Python)</h2>
-        <p>This project started as a tool to help me study and review notes through typing practice. The game allows you to paste in custom text, like lecture notes or study material, and it helps you type them accurately and quickly. Over time, the game was enhanced to support typing practice with song lyrics, turning it into a fun and engaging way to practice typing skills while listening to your favorite music.</p>
-
-
-        <h2>Stack Implementation with Design Patterns</h2>
-        <p>This project involved implementing a stack data structure with different design patterns (Factory, Singleton, etc.).</p>
-
-        <h2>SDLC and Agile Methodology Project</h2>
-        <p>During the tigerChow project, we focused on the Software Development Life Cycle (SDLC) and Agile methodologies. My group voted for me to be the Scrum Master, so I was in charge of keeping Trello updated and setting up dates.</p>
-    </section>
     <!-- Projects Section -->
 <section class="projects" id="projects">
     <h2>My Projects</h2>
