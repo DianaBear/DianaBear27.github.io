@@ -122,13 +122,27 @@
         </div>
 
 
-        <div class="project-card" onclick="toggleProject(this)">
+        <div class="project-card" onclick="openModal('skincareModal')">
             <h3>Skincare App – Personalized Routine Tracker</h3>
             <p>Quiz-based skin type assessment with routine tracking.</p>
             <div class="project-preview">
-                <img src="images/placeholder.png" alt="Skincare app preview">
+                <img src="images/Image.jpeg" alt="Skincare app preview">
             </div>
         </div>
+
+        <!-- Modal -->
+        <div id="skincareModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('skincareModal')">&times;</span>
+            <iframe 
+                src="https://drive.google.com/file/d/1FFjCQ3m7rX0kWM5FWfWl19ulW7juxcR3/preview"
+                width="100%" 
+                height="400"
+                allowfullscreen>
+            </iframe>
+        </div>
+        </div>
+
 
         <div class="project-card" onclick="toggleProject(this)">
             <h3>Gender Gap in Computer Science</h3>
