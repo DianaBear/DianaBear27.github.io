@@ -22,7 +22,7 @@
 
         <h3>Coursework & Projects</h3>
         <div class="resume-item">
-            <strong>Courses:</strong> Web Site Design, Intro to Programming Logic, C Programming, Microcomputer Applications, Algorithms and Data Structures, Computer Science, Discrete Structures for Computing, Computer Ethics and Society, Problem Solving with Office Apps, Computer Science II, Software Development Foundations, Human and Computer Interaction, Database Management Systems, Introduction to Operating Systems, Networks and Network programming, and Computer Organization.
+            <strong>Courses:</strong> Web Site Design, Intro to Programming Logic, C Programming, Microcomputer Applications, Algorithms and Data Structures, Computer Science, Discrete Structures for Computing, Computer Ethics and Society, Problem Solving with Office Apps, Computer Science II, Software Development Foundations, Human and Computer Interaction, Database Management Systems, Introduction to Operating Systems, Network programming, Computer Organization, Computers in Education, Computer Security Principles, Senior Computing Practicum, Systems Analysis, and System and Security Principles.
         </div>
         <div class="resume-item">
             <strong>Projects Built in C++:</strong>
@@ -52,7 +52,7 @@
             <strong>Financial Assistant at SB Trucking</strong>  
             <ul>
                 <li>Supported preparation of 1099 tax submissions by organizing and categorizing expenses.</li>
-                <li>Built a semi-automated accounting expense balancing tool to streamline tracking of costs.</li>
+                <li>Built a semi automated accounting expense balancing tool to streamline tracking of costs.</li>
             </ul>
         </div>
         <div class="resume-item">
@@ -88,7 +88,7 @@
     }
 
     .resume h2 {
-        color: #6a4c9c; /* Lilac Purple */
+        color: #6a4c9c;
         text-align: center;
     }
 

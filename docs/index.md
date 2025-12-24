@@ -182,9 +182,11 @@
     <!-- About Me Section -->
     <section class="about">
         <h2>About Me</h2>
-        <p>I'm a Computer Information Systems major with a Cybersecurity minor at Clemson University. Currently, I am an IT Site Intern at Vertiv, where I support onsite infrastructure and gain hands on experience in IT operations. This includes exposure to enterprise systems, cloud computing, and day to day technical support at a global technology company.
         
-        I've also worked as an undergraduate researcher focused on privacy compliance in software development and explored topics in quantum computing. Starting Fall 2025, I'll be part of a creative inqury team researching humanoid robotics for everyday automation.</p>
+        <p>I am a Computer Information Systems major with a Cybersecurity minor at Clemson University. I have gained hands on experience in IT operations and technical support, including working with enterprise systems and cloud technologies during my internship at Vertiv.  
+        </p>
+
+        <p> As an undergraduate researcher, I focused on privacy compliance in software development and explored topics in quantum computing. I also completed a Creative Inquiry project on humanoid robotics.</p>
 
         <p>I enjoy learning new programming languages, working with APIs, and  diving into research on emerging technologies. Whether it’s cybersecurity, software development, or data analysis, I’m always excited to take on new challenges in tech!</p>
 

@@ -144,12 +144,14 @@
     <!-- About Me Section -->
     <section class="about">
         <h2>About Me</h2>
-        <p>I'm a Computer Information Systems major with a Cybersecurity minor at Clemson University, set to graduate in May 2026. I'm particularly interested in emerging technologies like artificial intelligence, machine learning, and privacy compliance in software development. I enjoy exploring how advanced algorithms and secure systems influence the digital world. Through a mix of technical and security-focused coursework, I'm developing a well-rounded skill set to navigate the fast-paced tech industry.</p>
+        <p>I am a Computer Information Systems student at Clemson University with a minor in Cybersecurity, graduating in May 2026. My interests lie in applying technical knowledge to support secure, efficient, and well-designed information systems. I am particularly drawn to roles that involve system analysis, security, and the responsible use of technology.
+
+        My background includes academic projects, undergraduate research, and hands-on technical experience that have strengthened my skills in programming, data analysis, and IT operations. I approach problems methodically, value accuracy and accountability, and am focused on continuing to grow as a professional in the technology and cybersecurity fields.</p>
     </section>
 
     <section class="about">
         <h2>My goals as a student</h2>
-        <p>My goal is to become a Cybersecurity Analyst, using my skills to protect systems and secure data in an increasingly digital world. While that’s my main focus, I’m also exploring different areas of computer science to find what excites me most. Whether it’s diving into AI, analyzing cybersecurity threats, or experimenting with software development, I see this exploration as a way to grow both personally and professionally. I’m driven by a passion for learning, adapting, and making a meaningful impact in the ever-changing tech industry.</p>
+        <p>My long term goal is to build a career in cybersecurity or IT, where I can help secure systems, networks, and data against evolving threats. As a student, I am focused on strengthening my technical foundation in areas such as system administration, network security, and risk management while continuing to expand my understanding of broader IT environments. Through coursework and hands on experience, I am developing the analytical mindset, adaptability, and problem solving skills necessary to work effectively in fast paced, security driven roles.</p>
     </section>
 
 <section class="about">

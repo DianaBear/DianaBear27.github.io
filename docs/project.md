@@ -152,6 +152,44 @@
         <h2>SDLC and Agile Methodology Project</h2>
         <p>During the tigerChow project, we focused on the Software Development Life Cycle (SDLC) and Agile methodologies. My group voted for me to be the Scrum Master, so I was in charge of keeping Trello updated and setting up dates.</p>
     </section>
+    <!-- Projects Section -->
+<section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <div class="project-container">
+        <div class="project-card">
+            <h3>Palmetto Blooms – Hackathon Project</h3>
+            <p>Developed a mobile app that identifies bloom stages and flags early pest risks. Designed the UI/flow and integrated environmental inputs to improve classification accuracy. (Fall 2025)</p>
+        </div>
+        <div class="project-card">
+            <h3>Skincare App – Personalized Routine Tracker</h3>
+            <p>Built a quiz-based skin type assessment and recommendation engine, with mobile-friendly routine logging and progress tracking. (2025)</p>
+        </div>
+        <div class="project-card">
+            <h3>Gender Gap in Computer Science – Independent Research</h3>
+            <p>Analyzed 10+ years of IPEDS datasets (50k+ data points) to visualize long-term gender disparities in CS enrollment and explored diversity and inclusion challenges. (Spring 2025)</p>
+        </div>
+        <div class="project-card">
+            <h3>Weather Prediction Using Machine Learning</h3>
+            <p>Compiled 100 years of Greenville weather data and trained predictive models (Linear Regression, Random Forest) in Python, achieving 12–18% improvement over baseline accuracy. (Summer 2024)</p>
+        </div>
+        <div class="project-card">
+            <h3>TigerChow Postman API</h3>
+            <p>Created and tested API specifications for the TigerChow application using Postman, ensuring smooth backend/frontend integration and endpoint documentation.</p>
+        </div>
+        <div class="project-card">
+            <h3>DianaBear Typing Game (Python/C)</h3>
+            <p>Developed a typing game to practice notes or lyrics, supporting custom text input and tracking typing speed (WPM).</p>
+        </div>
+        <div class="project-card">
+            <h3>SDLC & Agile Methodology Project</h3>
+            <p>Served as Scrum Master for the TigerChow project, managing Trello boards, sprint planning, and team coordination while applying SDLC and Agile principles.</p>
+        </div>
+        <div class="project-card">
+            <h3>Image Stacking in C</h3>
+            <p>Implemented noise reduction in PPM images using dynamic memory allocation and image stacking techniques in C.</p>
+        </div>
+    </div>
+</section>
 
 <footer class="footer">
         <p> Last updated 2025 by DianaBear | Clemson University</p>

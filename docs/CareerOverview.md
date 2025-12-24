@@ -171,12 +171,18 @@
             <li><strong>IT Site Support</strong> - Vertiv, Anderson, SC (Summer 2025)</li>
         </ul>
 
+
+
+
+    
+
         <h2>Technical Skills</h2>
         <ul>
-            <li>Programming: C, C++, Python, Java, SQL, and R</li>
-            <li>Software Tools: Linux, Microsoft Access, Postman</li>
-            <li>Certifications: MOS, Postman API Fundamentals, SkillsUp JavaScript</li>
-            <li>Web Development: Jekyll, GitHub Pages</li>
+        <li>Programming: C, C++, Python, Java, SQL, and R</li>
+        <li>Software Tools: Linux, Microsoft Access, Postman</li>
+        <li>Certifications: MOS, Postman API Fundamentals, SkillsUp JavaScript</li>
+        <li>Web Development: Jekyll, GitHub Pages</li>
+        <li>Additional Skills: APIs, RESTful services, Git/GitHub version control, business and accounting knowledge from coursework</li>
         </ul>
 
 
