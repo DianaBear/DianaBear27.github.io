@@ -117,9 +117,10 @@
             <h3>Palmetto Blooms – Hackathon Project</h3>
             <p>Mobile app that identifies bloom stages and flags early pest risks.</p>
             <div class="project-preview">
-                <img src="images/placeholder.png" alt="Palmetto Blooms preview">
+                <img src="images/Image.jpeg" alt="Palmetto Blooms preview">
             </div>
         </div>
+
 
         <div class="project-card" onclick="toggleProject(this)">
             <h3>Skincare App – Personalized Routine Tracker</h3>
