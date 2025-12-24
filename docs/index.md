@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,8 +21,8 @@
             justify-content: center;
             align-items: center;
             padding: 15px 30px;
-            background: #D6B3E1; /* Lilac Purple */
-            border-bottom: 5px solid #F66733; /* Orange Strip */
+            background: #D6B3E1;
+            border-bottom: 5px solid #F66733;
             color: white;
             font-size: 1.5rem;
             font-weight: bold;
@@ -30,10 +30,10 @@
 
         /* Hero Section */
         .hero {
-            background: #D6B3E1; /* Lilac Purple */
+            background: #D6B3E1;
             color: white;
             padding: 80px 20px;
-            border-bottom: 5px solid #F66733; /* Orange Strip */
+            border-bottom: 5px solid #F66733;
             text-align: center;
         }
 
@@ -62,7 +62,7 @@
             color: #fff;
         }
 
-        /* About Me Section */
+        /* About Section */
         .about {
             padding: 40px;
             text-align: center;
@@ -76,7 +76,7 @@
         }
 
         .skills ul {
-            list-style-type: none;
+            list-style: none;
             padding: 0;
         }
 
@@ -88,7 +88,7 @@
         /* Projects Section */
         .projects {
             padding: 40px;
-            background-color: #f7f7f7;
+            background-color: #F2F3F2;
             text-align: center;
         }
 
@@ -96,25 +96,26 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 20px;
-            justify-content: center;
             margin-top: 20px;
         }
 
         .project-card {
-            padding: 20px;
-            background: #D6B3E1; /* Light Orange */
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 22px;
+            background-color: #D6B3E1;
+            border-radius: 12px;
+            border-top: 6px solid #F66733;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .project-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            transform: translateY(-6px);
+            box-shadow: 0 10px 18px rgba(0, 0, 0, 0.18);
         }
 
         .project-card h3 {
             color: #F66733;
+            margin-bottom: 10px;
         }
 
         /* Contact Section */
@@ -134,15 +135,15 @@
         }
 
         .contact-info a {
-            color: #F66733; /* Orange link color */
+            color: #F66733;
             text-decoration: none;
             font-weight: bold;
         }
 
-    .contact-info a:hover {
-        color: #D45F25; /* Darker orange on hover */
-        text-decoration: underline;
-    }
+        .contact-info a:hover {
+            color: #D45F25;
+            text-decoration: underline;
+        }
 
         /* Footer */
         .footer {
@@ -150,10 +151,6 @@
             background-color: #D6B3E1;
             text-align: center;
             color: white;
-        }
-
-        .footer-links {
-            margin-top: 10px;
         }
 
         .footer-links a {
@@ -166,11 +163,10 @@
         .footer-links a:hover {
             text-decoration: underline;
         }
-        
     </style>
 </head>
-<body>
 
+<body>
 
     <!-- Hero Section -->
     <header class="hero">
@@ -179,96 +175,65 @@
         <a href="#projects" class="cta">View My Work</a>
     </header>
 
-    <!-- About Me Section -->
+    <!-- About -->
     <section class="about">
         <h2>About Me</h2>
-        
-        <p>I am a Computer Information Systems major with a Cybersecurity minor at Clemson University. I have gained hands on experience in IT operations and technical support, including working with enterprise systems and cloud technologies during my internship at Vertiv.  
-        </p>
-
-        <p> As an undergraduate researcher, I focused on privacy compliance in software development and explored topics in quantum computing. I also completed a Creative Inquiry project on humanoid robotics.</p>
-
-        <p>I enjoy learning new programming languages, working with APIs, and  diving into research on emerging technologies. Whether it’s cybersecurity, software development, or data analysis, I’m always excited to take on new challenges in tech!</p>
-
+        <p>I am a Computer Information Systems major with a Cybersecurity minor at Clemson University. I have hands-on experience in IT operations and technical support through my internship at Vertiv.</p>
+        <p>As an undergraduate researcher, I focused on privacy compliance in software development and explored quantum computing topics.</p>
+        <p>I enjoy learning new programming languages, working with APIs, and exploring emerging technologies.</p>
     </section>
 
-    <!-- Skills Section -->
+    <!-- Skills -->
     <section class="skills">
         <h2>Skills & Expertise</h2>
-        <p>Here are some of the skills I’ve developed throughout my studies and projects:</p>
         <ul>
-            <li>Programming Languages: C, C++, Python, Java, and R</li>
-            <li>Web Development: HTML & JavaScript</li>
-            <li>APIs: RESTful APIs, Postman</li>
-            <li>Version Control: Git, GitHub</li>
-            <li>Business & Accounting knowledge from additional coursework</li>
+            <li>Languages: C, C++, Python, Java, R</li>
+            <li>Web: HTML, JavaScript</li>
+            <li>APIs: REST, Postman</li>
+            <li>Tools: Git, GitHub</li>
         </ul>
     </section>
 
-<!-- Projects Section -->
-<section class="projects" id="projects">
-    <h2>My Projects</h2>
-    <div class="project-container">
-        <div class="project-card">
-            <h3>TigerChow API</h3>
-            <p>Developing an API to streamline campus food orders using Postman & microservices.</p>
-        </div>
-        <div class="project-card">
-            <h3>Image Stacking in C</h3>
-            <p>Noise reduction in PPM images using dynamic memory allocation in C.</p>
-        </div>
-        <div class="project-card">
-            <h3>Weather Predictor (Python)</h3>
-            <p>Analyzed weather patterns and predicted future conditions using machine learning algorithms.</p>
-        </div>
-        <div class="project-card">
-            <h3>DianaBear Typing Game (C)</h3>
-            <p>A fun typing game that tracks your typing speed (WPM) and helps practice notes or lyrics.</p>
-        </div>
-    </div>
-</section>
-
-<style>
-    /* Projects Section */
-    .projects {
-        padding: 40px;
-        background-color: #f7f7f7;
-    }
-
-    .project-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    }
-
-    .project-card {
-        padding: 20px;
-        background: #D6B3E1; /* Light Orange Hue */
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-</style>
-
-
-    <!-- Contact Section -->
-    <section class="contact">
-        <h2>Contact Me</h2>
-        <div class="contact-info">
-            <p>Feel free to connect with me via the following:</p>
-            <ul>
-                <li>Email: <a href="mailto:dbaraka@clemson.edu">dbaraka@clemson.edu</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/dianabear/">Diana Barakat</a></li>
-                <li>GitHub: <a href="https://github.com/DianaBear">DianaBear</a></li>
-            </ul>
+    <!-- Projects -->
+    <section class="projects" id="projects">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>TigerChow API</h3>
+                <p>Developing an API to streamline campus food orders using Postman and microservices.</p>
+            </div>
+            <div class="project-card">
+                <h3>Image Stacking in C</h3>
+                <p>Noise reduction in PPM images using dynamic memory allocation in C.</p>
+            </div>
+            <div class="project-card">
+                <h3>Weather Predictor (Python)</h3>
+                <p>Analyzed weather patterns and predicted future conditions using machine learning.</p>
+            </div>
+            <div class="project-card">
+                <h3>DianaBear Typing Game</h3>
+                <p>A typing game that tracks WPM and helps practice notes or lyrics.</p>
+            </div>
         </div>
     </section>
 
+    <!-- Contact -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <ul class="contact-info">
+            <li>Email: <a href="mailto:dbaraka@clemson.edu">dbaraka@clemson.edu</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/dianabear/">Diana Barakat</a></li>
+            <li>GitHub: <a href="https://github.com/DianaBear">DianaBear</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
     <footer class="footer">
         <p>Last updated 2025 by DianaBear | Clemson University</p>
         <div class="footer-links">
-            <a href="project.html">Projects</a> | 
-            <a href="about.html">About</a> | 
-            <a href="CareerOverview.html">Career</a> | 
+            <a href="project.html">Projects</a> |
+            <a href="about.html">About</a> |
+            <a href="CareerOverview.html">Career</a> |
             <a href="Resume.html">Resume</a>
         </div>
     </footer>
