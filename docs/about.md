@@ -1,10 +1,10 @@
-
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me | Diana Barakat</title>
+    <!-- <title>Diana Barakat | Clemson Computer Science</title> -->
+
     <style>
         /* Global Styles */
         body {
@@ -21,8 +21,8 @@
             justify-content: space-between;
             align-items: center;
             padding: 15px 30px;
-            background: #D6B3E1;
-            border-bottom: 5px solid #F66733;
+            background: #D6B3E1; /* Lilac Purple */
+            border-bottom: 5px solid #F66733; /* Orange Strip */
             color: white;
         }
 
@@ -50,10 +50,10 @@
 
         /* Hero Section */
         .hero {
-            background: #D6B3E1;
+            background: #D6B3E1; /* Lilac Purple */
             color: white;
             padding: 80px 20px;
-            border-bottom: 5px solid #F66733;
+            border-bottom: 5px solid #F66733; /* Orange Strip */
             text-align: center;
         }
 
@@ -82,54 +82,44 @@
             color: #333;
         }
 
-        /* Section Styling */
+        /* About Me Section */
         .about {
             padding: 40px;
             text-align: center;
-            max-width: 900px;
-            margin: auto;
         }
 
-        .about h2 {
-            color: #6a4c9c;
-            margin-bottom: 15px;
+        /* Projects Section */
+        .projects {
+            padding: 40px;
+            background-color: #f7f7f7;
         }
 
-        .about h3 {
-            margin-top: 20px;
-            margin-bottom: 5px;
-            color: #444;
+        .project-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
         }
 
-        .about p {
-            line-height: 1.6;
-            margin-bottom: 15px;
+        .project-card {
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         /* Contact Section */
         .contact {
             padding: 40px;
             background-color: #e9e9e9;
-            max-width: 900px;
-            margin: auto;
         }
 
-        .contact ul {
+        .contact-info ul {
             list-style: none;
             padding: 0;
         }
 
-        .contact li {
+        .contact-info li {
             margin-bottom: 10px;
-        }
-
-        .contact a {
-            color: #F66733;
-            text-decoration: none;
-        }
-
-        .contact a:hover {
-            text-decoration: underline;
         }
 
         /* Footer */
@@ -139,24 +129,14 @@
             text-align: center;
             color: white;
         }
-
-        .footer-links a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            margin: 0 10px;
-        }
-
-        .footer-links a:hover {
-            text-decoration: underline;
-        }
     </style>
 </head>
 <body>
 
+
     <!-- Hero Section -->
     <header class="hero">
-        <h1>About Me 👩🏻‍💻</h1>
+        <h1>About Me! 👩🏻‍💻</h1>
         <p>Learn more about my academic journey and career goals</p>
         <a href="#projects" class="cta">View My Work</a>
     </header>
@@ -164,27 +144,28 @@
     <!-- About Me Section -->
     <section class="about">
         <h2>About Me</h2>
-        <p>I am a Computer Information Systems major with a Cybersecurity minor at Clemson University, graduating in May 2026. I have a strong interest in emerging technologies, including artificial intelligence, machine learning, and software privacy compliance. I enjoy analyzing complex systems and exploring how secure, innovative solutions can improve digital experiences. My coursework and hands-on projects have given me a well-rounded technical and security-focused skill set, preparing me for the fast-paced tech industry.</p>
+        <p>I'm a Computer Information Systems major with a Cybersecurity minor at Clemson University, set to graduate in May 2026. I'm particularly interested in emerging technologies like artificial intelligence, machine learning, and privacy compliance in software development. I enjoy exploring how advanced algorithms and secure systems influence the digital world. Through a mix of technical and security-focused coursework, I'm developing a well-rounded skill set to navigate the fast-paced tech industry.</p>
     </section>
 
     <section class="about">
-        <h2>My Goals as a Student</h2>
-        <p>My primary goal is to become a Cybersecurity Analyst, protecting systems and safeguarding data in a technology-driven world. I am intentionally exploring different areas of computer science to identify what challenges and excites me most. From AI to cybersecurity threats and software development, I am focused on growing professionally while developing critical thinking and problem-solving skills. I am driven to learn, adapt, and make meaningful contributions in an ever-evolving field.</p>
+        <h2>My goals as a student</h2>
+        <p>My goal is to become a Cybersecurity Analyst, using my skills to protect systems and secure data in an increasingly digital world. While that’s my main focus, I’m also exploring different areas of computer science to find what excites me most. Whether it’s diving into AI, analyzing cybersecurity threats, or experimenting with software development, I see this exploration as a way to grow both personally and professionally. I’m driven by a passion for learning, adapting, and making a meaningful impact in the ever-changing tech industry.</p>
     </section>
 
-    <section class="about">
-        <h2>Books That Shaped My Perspective</h2>
+<section class="about">
+        <h2>Great Books That Changed My Perspective on Computer Science</h2>
         <h3><em>Artificial Unintelligence</em> by Meredith Broussard</h3>
-        <p>This book challenges the notion that technology is inherently objective, highlighting how systems can fail to account for human and societal complexities.</p>
+        <p>TThis book challenged the idea that technology is objective. It made me think critically about how computers often fail to understand the complexities of real world problems, especially when it comes to people and social issues.</p>
 
         <h3><em>Weapons of Math Destruction</em> by Cathy O’Neil</h3>
-        <p>This work explores how algorithms can perpetuate inequality at scale, pushing readers to consider the ethical implications of data-driven decision-making in areas such as education, finance, and law enforcement.</p>
+        <p>This book explores how algorithms can reinforce inequality at scale. It pushed me to think more deeply about the ethical impact of data driven systems, especially in areas like education, policing, and finance.</p>
+
     </section>
 
     <!-- Contact Section -->
     <section class="contact">
         <h2>Contact Me</h2>
-        <p>Connect with me through the following channels:</p>
+        <p>Feel free to connect with me via the following:</p>
         <ul>
             <li>Email: <a href="mailto:dbaraka@clemson.edu">dbaraka@clemson.edu</a></li>
             <li>LinkedIn: <a href="https://www.linkedin.com/in/dianabear/">Diana Barakat</a></li>
@@ -192,16 +173,16 @@
         </ul>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
-        <p>Last updated 2025 by DianaBarakat | Clemson University</p>
+        <p> Last updated 2025 by DianaBear | Clemson University</p>
         <div class="footer-links">
             <a href="index.html">Home</a> |
             <a href="project.html">Projects</a> |  
             <a href="CareerOverview.html">Career</a> | 
-            <a href="Resume.html">Resume</a>
+            <a href="Resume.html">Resume</a> |
         </div>
     </footer>
+
 
 </body>
 </html>
