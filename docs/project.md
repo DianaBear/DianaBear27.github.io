@@ -122,6 +122,7 @@
         </div>
 
 
+
         <div class="project-card" onclick="openModal('skincareModal')">
             <h3>Skincare App – Personalized Routine Tracker</h3>
             <p>Quiz-based skin type assessment with routine tracking.</p>
@@ -130,7 +131,7 @@
             </div>
         </div>
 
-        <!-- Modal -->
+
         <div id="skincareModal" class="modal">
         <div class="modal-content">
             <span class="close" onclick="closeModal('skincareModal')">&times;</span>
@@ -144,11 +145,12 @@
         </div>
 
 
+
         <div class="project-card" onclick="toggleProject(this)">
             <h3>Gender Gap in Computer Science</h3>
             <p>Analyzed 10+ years of IPEDS data to visualize enrollment trends.</p>
             <div class="project-preview">
-                <img src="images/placeholder.png" alt="Gender gap data preview">
+                <img src="images/womanCPSC.png" alt="Woman In Computer Science preview">
             </div>
         </div>
 
