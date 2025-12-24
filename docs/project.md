@@ -121,7 +121,7 @@
     <!-- Projects Section -->
     <section class="projects" id="projects">
         <h2>Checkers Game Project</h2>
-        <p>This project is a checkers game built using [language/framework].</p>
+        <p>This project is a checkers game built using Java.</p>
 
         <h2>Data Science Project (Python)</h2>
         <p>This project uses IPEDS data to analyze the number of men and women in computer science nationally and at Clemson University.</p>
@@ -171,6 +171,40 @@
         <div class="project-card">
             <h3>Weather Prediction Using Machine Learning</h3>
             <p>Compiled 100 years of Greenville weather data and trained predictive models (Linear Regression, Random Forest) in Python, achieving 12–18% improvement over baseline accuracy. (Summer 2024)</p>
+        </div>
+                <div class="project-card">
+            <h3>Checkers Game Project (Java)</h3>
+            <p>Built a fully functional checkers game using Java, implementing game logic, player interaction, and rule enforcement.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Data Science Project – Gender Gap in Computer Science (Python)</h3>
+            <p>Used IPEDS data to analyze and visualize gender disparities in computer science enrollment nationally and at Clemson University.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>US vs. France Government Comparison (R)</h3>
+            <p>Compared governmental structures and policies of the United States and France using data analysis and visualization in R.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Personal Website (Jekyll + GitHub Pages)</h3>
+            <p>Designed and deployed a personal portfolio website using Jekyll and GitHub Pages to showcase projects, experience, and skills.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Microservices Project – Spotify API</h3>
+            <p>Developed an API-driven application integrating the Spotify API to create personalized playlists, add predefined songs, and retrieve user data.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Stack Implementation with Design Patterns</h3>
+            <p>Implemented a stack data structure while applying design patterns such as Factory and Singleton to improve modularity and scalability.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Typing Game (Python)</h3>
+            <p>Created a typing practice game supporting custom text input (notes or lyrics) and tracking typing speed (WPM) for skill improvement.</p>
         </div>
         <div class="project-card">
             <h3>TigerChow Postman API</h3>
